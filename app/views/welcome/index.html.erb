@@ -1,24 +1,26 @@
 <div class="content-wrapper">
     <div class="content-block" >
+    <% (1..10).each do |i| %>
         <div class="content">
             <div class="user-about">
                 <div class="image">
                     <%= image_tag "ジゴキシン.jfif" %>
                 </div>
-                <div class="name-history">
-                    <div class="name">
-                        ポテト
+                <div class="profile">
+                    <div class="name-history">
+                        <div class="name">
+                            ポテト
+                        </div>
+                        <div class="learning-history">
+                            学習歴: 1年
+                        </div>
                     </div>
-                    <div class="learning-history">
-                        学習歴: 1年
-                    </div>
-                </div>
                     <div class="purpose">
                         専門分野:薬学
                         経験言語:Python Ruby
                         ITの力で医療を変えたい
                     </div>
-                
+                </div>
             </div>
             <div class="text">
                 <p>これはサンプルテキストですこれはサンプルテキストですこれはサンプルテキストです</p>
@@ -29,6 +31,7 @@
                 <div class="comment"></div>
             </div>
         </div>
+    <% end %>
     </div>
     
     <div class="sidebar" >

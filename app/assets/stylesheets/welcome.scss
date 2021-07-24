@@ -1,28 +1,32 @@
 #welcome-index{
     .content-wrapper{
         display: flex;
+        justify-content: space-between;
        .content-block {
         border:2px solid #000;
-        width: 80%;
+        width: 60%;
         padding: 20px;
         .content{
+            border: 2px solid #000;
+            padding: 20px;
+            width: 80%;
             .user-about{
                 display: flex;
                 .image{
                     width: 40%;
                 }
                 .name-history{
-                    width: 30%;
+                    width: 20%;
                     display: flex;
                     .name{
-
+                    font-weight: bold;
                     }
                     .learning-history{
-
+                    margin-left: 20px;
                     }
                 }
                 .purpose{
-                    width: 30%;
+                    width: 40%;
                 }
             }
 
