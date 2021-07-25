@@ -4,6 +4,8 @@ class PostsController < ApplicationController
     before_action :find_post, only: [:show, :edit, :update, :destory]
     
 
+
+    
     #基本の七個
     def index
         @posts=Post.all
