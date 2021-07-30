@@ -1,6 +1,8 @@
 <div>
     <%= form_for(@post) do |f| %>
         <%= f.text_area :content ,row: 5 %>
-        <%= f.submit class:"button" %>
+        <div class="submit-block">
+            <%= f.submit class:"button" %>
+        </div>
     <% end %>
 </div>
