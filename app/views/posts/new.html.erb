@@ -1,6 +1,6 @@
 <div>
     <%= form_for(@post) do |f| %>
-        <%= f.text_field :content %>
-        <%= f.submit %>
+        <%= f.text_area :content ,row: 5 %>
+        <%= f.submit class:"button" %>
     <% end %>
 </div>
